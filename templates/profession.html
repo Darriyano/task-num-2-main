@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br><br>
+{% if profession == 0 %}
+    <h2 align="center">Научные симуляторы</h2>
+    <img src="static/image/sciense.jpg" alt="научные симуляторы" >
+{% else %}
+    <h2 align="center">Инженерные тренажеры</h2>
+    <img src="static/image/engineer.jpg" alt="инженерные тренажеры" >
+{% endif %}
+{% endblock %}
